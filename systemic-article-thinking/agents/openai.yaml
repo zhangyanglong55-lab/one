@@ -1,0 +1,13 @@
+interface:
+  display_name: 系统文章思考
+  short_description: 用多种系统框架深入分析主题并写成自然耐读的中文长文章
+  default_prompt: 请用系统文章思考分析我提供的主题和材料，隐形选择合适的思维框架，并结合活人感写作完成文章。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
